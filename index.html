@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form id="loginFormulario">
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario" name="usuario">
+        <span class="error" id="erroUsuario"></span>
+        <br><br>
+        
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+        <span class="error" id="erroSenha"></span>
+        <br><br>
+        
+        <button type="button" onclick="validarLogin()">Entrar</button>
+    </form>
+
+</body>
+</html>
