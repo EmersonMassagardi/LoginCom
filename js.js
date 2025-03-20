@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("botaoLogin").addEventListener("click", validarLogin);
+});
 
 function validarLogin() {
     let usuario = document.getElementById("usuario").value;
